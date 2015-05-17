@@ -5,7 +5,7 @@ def decode_address_to_coordinates(address):
         params = {
             'address' : address,
             'key': 'AIzaSyBYV18V24_F6GRAFcWoQ0Y95f9tsB8v7_M',
-            'sensor' : 'false',
+            'sensor' : 'true',
         }
         url = 'https://maps.google.com/maps/api/geocode/json?' + urllib.urlencode(params)
         response = urllib2.urlopen(url)

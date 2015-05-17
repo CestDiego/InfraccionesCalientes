@@ -1,0 +1,10 @@
+
+* Usage
+
+First run the parser.py to download data from the municipality's API. THen run
+the decode.py to decode Adresses into GeoPoints that can be read from google. :)
+that's it :3
+
+* Profit 
+But beware, this software is very experimental and you might lose part of your
+right eyesight. It's happened before. Also I haven't slept in 3 days.
